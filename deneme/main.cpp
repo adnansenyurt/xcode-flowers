@@ -11,7 +11,7 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\nThis is C++\n";
+    std::cout << "Hello, World!\nThis is Yellow flowers shop\n";
     Flower *myflower;
     myflower = new Flower;
     myflower->addLeaf(3);
