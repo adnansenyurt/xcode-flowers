@@ -7,9 +7,15 @@
 //
 
 #include <iostream>
+#include "Flower.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << "Hello, World!\nThis is C++\n";
+    Flower *myflower;
+    myflower = new Flower;
+    myflower->addLeaf(3);
+    myflower->addLeaf(5);
+    std::cout << myflower->getLeaves() << "\n";
     return 0;
 }
