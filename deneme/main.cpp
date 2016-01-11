@@ -11,11 +11,11 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\nThis is C++\n";
+    std::cout << "Hello, World!\nThis is master shop\n";
     Flower *myflower;
     myflower = new Flower;
     myflower->addLeaf(3);
-    myflower->addLeaf(5);
+    myflower->addLeaf(6);
     std::cout << myflower->getLeaves() << "\n";
     return 0;
 }
